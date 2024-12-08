@@ -36,6 +36,10 @@
     background: linear-gradient(169deg, rgba(41, 94, 148, 1) 55%, rgba(188, 0, 255, 1) 95%);
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .display_menu {
     display: block;
 }

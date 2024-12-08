@@ -5,4 +5,5 @@ console.log(menu);
 
 function toggleMobileMenu() {
   menu.classList.toggle("display_menu");
+  document.body.classList.toggle("noscroll");
 }
