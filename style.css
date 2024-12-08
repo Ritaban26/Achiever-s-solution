@@ -24,6 +24,7 @@
     margin-left: -4em;
 }
 
+
 .menu {
     display: none;
     position: absolute;
@@ -56,8 +57,7 @@
     width: 15em;
 }
 
-.mobile_menu_btn {
-    color: var(--brand_color);
+#mobile_menu_btn {
     cursor: pointer;
 }
 
@@ -75,8 +75,33 @@
     transition: 200ms;
 }
 
-*/
 
+
+*/
+@media (min-width:768px) {
+    #mobile_menu_btn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: static;
+        height: fit-content;
+        width: fit-content;
+        text-align: none;
+        background: none;
+    }
+
+    .menu-item {
+        display: inline;
+        margin: 0;
+        color: var(--brand_color);
+    }
+
+    .menu-item+.menu-item {
+        margin-left: 10px;
+    }
+}
 
 /* ============================================== */
 
