@@ -166,7 +166,7 @@
 }
 .service_card {
   background-color: white;
-  box-shadow: 1px 1px 1px 1px gray;
+  box-shadow: 2px 2px 5px 1px gray;
   padding: 2em 5%;
   text-align: center;
 }
